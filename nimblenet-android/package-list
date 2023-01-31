@@ -1,0 +1,97 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:ai.nimbleedge.callback////PointingToDeclaration/nimblenet-android/ai.nimbleedge.callback/index.html
+$dokka.location:ai.nimbleedge.callback/InitialisationCallback///PointingToDeclaration/nimblenet-android/ai.nimbleedge.callback/-initialisation-callback/index.html
+$dokka.location:ai.nimbleedge.callback/InitialisationCallback/onFailure/#ai.nimbleedge.result.NimbleNetResult.Failure/PointingToDeclaration/nimblenet-android/ai.nimbleedge.callback/-initialisation-callback/on-failure.html
+$dokka.location:ai.nimbleedge.callback/InitialisationCallback/onFallBack/#ai.nimbleedge.result.NimbleNetResult.FallBack/PointingToDeclaration/nimblenet-android/ai.nimbleedge.callback/-initialisation-callback/on-fall-back.html
+$dokka.location:ai.nimbleedge.callback/InitialisationCallback/onSuccess/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.callback/-initialisation-callback/on-success.html
+$dokka.location:ai.nimbleedge.callback/PredictionLoadCallback///PointingToDeclaration/nimblenet-android/ai.nimbleedge.callback/-prediction-load-callback/index.html
+$dokka.location:ai.nimbleedge.callback/PredictionLoadCallback/onFailure/#ai.nimbleedge.result.NimbleNetResult.Failure/PointingToDeclaration/nimblenet-android/ai.nimbleedge.callback/-prediction-load-callback/on-failure.html
+$dokka.location:ai.nimbleedge.callback/PredictionLoadCallback/onFallBack/#ai.nimbleedge.result.NimbleNetResult.FallBack/PointingToDeclaration/nimblenet-android/ai.nimbleedge.callback/-prediction-load-callback/on-fall-back.html
+$dokka.location:ai.nimbleedge.callback/PredictionLoadCallback/onSuccess/#ai.nimbleedge.datamodels.ModelOutput/PointingToDeclaration/nimblenet-android/ai.nimbleedge.callback/-prediction-load-callback/on-success.html
+$dokka.location:ai.nimbleedge.datamodels////PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/index.html
+$dokka.location:ai.nimbleedge.datamodels/DataArray///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-data-array/index.html
+$dokka.location:ai.nimbleedge.datamodels/DataArray/data/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-data-array/data.html
+$dokka.location:ai.nimbleedge.datamodels/DataArray/shape/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-data-array/shape.html
+$dokka.location:ai.nimbleedge.datamodels/DataArray/toString/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-data-array/to-string.html
+$dokka.location:ai.nimbleedge.datamodels/DataArray/type/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-data-array/type.html
+$dokka.location:ai.nimbleedge.datamodels/ModelOutput///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-model-output/index.html
+$dokka.location:ai.nimbleedge.datamodels/ModelOutput/ModelOutput/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-model-output/-model-output.html
+$dokka.location:ai.nimbleedge.datamodels/ModelOutput/get/#kotlin.String/PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-model-output/get.html
+$dokka.location:ai.nimbleedge.datamodels/ModelOutput/toString/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-model-output/to-string.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_BFLOAT16///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-b-f-l-o-a-t16/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_BOOL///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-b-o-o-l/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_COMPLEX128///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-c-o-m-p-l-e-x128/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_COMPLEX64///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-c-o-m-p-l-e-x64/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_DOUBLE///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-d-o-u-b-l-e/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_FLOAT///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-f-l-o-a-t/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_FLOAT16///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-f-l-o-a-t16/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_INT16///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-i-n-t16/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_INT32///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-i-n-t32/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_INT64///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-i-n-t64/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_INT8///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-i-n-t8/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_STRING///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-s-t-r-i-n-g/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_UINT16///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-u-i-n-t16/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_UINT32///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-u-i-n-t32/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_UINT64///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-u-i-n-t64/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_UINT8///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-u-i-n-t8/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE.ONNX_TENSOR_ELEMENT_DATA_TYPE_UNDEFINED///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/-o-n-n-x_-t-e-n-s-o-r_-e-l-e-m-e-n-t_-d-a-t-a_-t-y-p-e_-u-n-d-e-f-i-n-e-d/index.html
+$dokka.location:ai.nimbleedge.datamodels/TYPE///PointingToDeclaration/nimblenet-android/ai.nimbleedge.datamodels/-t-y-p-e/index.html
+$dokka.location:ai.nimbleedge.options////PointingToDeclaration/nimblenet-android/ai.nimbleedge.options/index.html
+$dokka.location:ai.nimbleedge.options//DEFAULT_OPTIONS/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.options/-d-e-f-a-u-l-t_-o-p-t-i-o-n-s.html
+$dokka.location:ai.nimbleedge.options/NimbleNetOptions.Builder///PointingToDeclaration/nimblenet-android/ai.nimbleedge.options/-nimble-net-options/-builder/index.html
+$dokka.location:ai.nimbleedge.options/NimbleNetOptions.Builder/Builder/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.options/-nimble-net-options/-builder/-builder.html
+$dokka.location:ai.nimbleedge.options/NimbleNetOptions.Builder/build/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.options/-nimble-net-options/-builder/build.html
+$dokka.location:ai.nimbleedge.options/NimbleNetOptions.Builder/coroutineScope/#kotlinx.coroutines.CoroutineScope/PointingToDeclaration/nimblenet-android/ai.nimbleedge.options/-nimble-net-options/-builder/coroutine-scope.html
+$dokka.location:ai.nimbleedge.options/NimbleNetOptions.Builder/dispatcher/#kotlinx.coroutines.CoroutineDispatcher/PointingToDeclaration/nimblenet-android/ai.nimbleedge.options/-nimble-net-options/-builder/dispatcher.html
+$dokka.location:ai.nimbleedge.options/NimbleNetOptions///PointingToDeclaration/nimblenet-android/ai.nimbleedge.options/-nimble-net-options/index.html
+$dokka.location:ai.nimbleedge.options/NimbleNetOptions/coroutineScope/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.options/-nimble-net-options/coroutine-scope.html
+$dokka.location:ai.nimbleedge.options/NimbleNetOptions/dispatcher/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.options/-nimble-net-options/dispatcher.html
+$dokka.location:ai.nimbleedge.result////PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/index.html
+$dokka.location:ai.nimbleedge.result/ErrorType.EMPTY///PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-error-type/-e-m-p-t-y/index.html
+$dokka.location:ai.nimbleedge.result/ErrorType.FAILED_TO_INITIALISE///PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-error-type/-f-a-i-l-e-d_-t-o_-i-n-i-t-i-a-l-i-s-e/index.html
+$dokka.location:ai.nimbleedge.result/ErrorType.SERVER_ERROR///PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-error-type/-s-e-r-v-e-r_-e-r-r-o-r/index.html
+$dokka.location:ai.nimbleedge.result/ErrorType.UNINITIALISED_ERROR///PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-error-type/-u-n-i-n-i-t-i-a-l-i-s-e-d_-e-r-r-o-r/index.html
+$dokka.location:ai.nimbleedge.result/ErrorType.UNKNOWN///PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-error-type/-u-n-k-n-o-w-n/index.html
+$dokka.location:ai.nimbleedge.result/ErrorType///PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-error-type/index.html
+$dokka.location:ai.nimbleedge.result/ErrorType/code/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-error-type/code.html
+$dokka.location:ai.nimbleedge.result/ErrorType/message/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-error-type/message.html
+$dokka.location:ai.nimbleedge.result/NimbleNetFlow///PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-flow/index.html
+$dokka.location:ai.nimbleedge.result/NimbleNetFlow/onFailure/#kotlin.coroutines.SuspendFunction1[ai.nimbleedge.result.NimbleNetResult.Failure,kotlin.Unit]/PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-flow/on-failure.html
+$dokka.location:ai.nimbleedge.result/NimbleNetFlow/onFallback/#kotlin.coroutines.SuspendFunction1[ai.nimbleedge.result.NimbleNetResult.FallBack,kotlin.Unit]/PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-flow/on-fallback.html
+$dokka.location:ai.nimbleedge.result/NimbleNetFlow/onSuccess/#kotlin.coroutines.SuspendFunction1[TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]/PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-flow/on-success.html
+$dokka.location:ai.nimbleedge.result/NimbleNetResult.Failure///PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-result/-failure/index.html
+$dokka.location:ai.nimbleedge.result/NimbleNetResult.Failure/Failure/#ai.nimbleedge.result.ErrorType#kotlin.Throwable?/PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-result/-failure/-failure.html
+$dokka.location:ai.nimbleedge.result/NimbleNetResult.Failure/errorType/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-result/-failure/error-type.html
+$dokka.location:ai.nimbleedge.result/NimbleNetResult.Failure/throwable/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-result/-failure/throwable.html
+$dokka.location:ai.nimbleedge.result/NimbleNetResult.FallBack///PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-result/-fall-back/index.html
+$dokka.location:ai.nimbleedge.result/NimbleNetResult.FallBack/FallBack/#ai.nimbleedge.result.ErrorType/PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-result/-fall-back/-fall-back.html
+$dokka.location:ai.nimbleedge.result/NimbleNetResult.FallBack/errorType/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-result/-fall-back/error-type.html
+$dokka.location:ai.nimbleedge.result/NimbleNetResult.Success///PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-result/-success/index.html
+$dokka.location:ai.nimbleedge.result/NimbleNetResult.Success/Success/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-result/-success/-success.html
+$dokka.location:ai.nimbleedge.result/NimbleNetResult.Success/data/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-result/-success/data.html
+$dokka.location:ai.nimbleedge.result/NimbleNetResult///PointingToDeclaration/nimblenet-android/ai.nimbleedge.result/-nimble-net-result/index.html
+$dokka.location:ai.nimbleedge////PointingToDeclaration/nimblenet-android/ai.nimbleedge/index.html
+$dokka.location:ai.nimbleedge/NimbleNet///PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net/index.html
+$dokka.location:ai.nimbleedge/NimbleNet/initAsync/#android.app.Application#ai.nimbleedge.NimbleNetConfig#ai.nimbleedge.callback.InitialisationCallback#ai.nimbleedge.options.NimbleNetOptions/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net/init-async.html
+$dokka.location:ai.nimbleedge/NimbleNet/initialize/#android.app.Application#ai.nimbleedge.NimbleNetConfig#ai.nimbleedge.options.NimbleNetOptions/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net/initialize.html
+$dokka.location:ai.nimbleedge/NimbleNet/predict/#kotlin.String#kotlin.Array[kotlin.Any]/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net/predict.html
+$dokka.location:ai.nimbleedge/NimbleNet/predict/#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any]/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net/predict.html
+$dokka.location:ai.nimbleedge/NimbleNet/predictAsync/#kotlin.String#kotlin.Array[kotlin.Any]#ai.nimbleedge.callback.PredictionLoadCallback/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net/predict-async.html
+$dokka.location:ai.nimbleedge/NimbleNet/predictAsync/#kotlin.String#kotlin.Array[kotlin.Any]/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net/predict-async.html
+$dokka.location:ai.nimbleedge/NimbleNet/predictAsync/#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any]#ai.nimbleedge.callback.PredictionLoadCallback/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net/predict-async.html
+$dokka.location:ai.nimbleedge/NimbleNet/predictAsync/#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any]/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net/predict-async.html
+$dokka.location:ai.nimbleedge/NimbleNetConfig///PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net-config/index.html
+$dokka.location:ai.nimbleedge/NimbleNetConfig/NimbleNetConfig/#kotlin.String#kotlin.Array[kotlin.String]#kotlin.String#kotlin.String#kotlin.Array[kotlin.String]/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net-config/-nimble-net-config.html
+$dokka.location:ai.nimbleedge/NimbleNetConfig/clientId/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net-config/client-id.html
+$dokka.location:ai.nimbleedge/NimbleNetConfig/deviceId/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net-config/device-id.html
+$dokka.location:ai.nimbleedge/NimbleNetConfig/featureStores/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net-config/feature-stores.html
+$dokka.location:ai.nimbleedge/NimbleNetConfig/host/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net-config/host.html
+$dokka.location:ai.nimbleedge/NimbleNetConfig/modelIds/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net-config/model-ids.html
+$dokka.location:ai.nimbleedge/NimbleNetConfig/toString/#/PointingToDeclaration/nimblenet-android/ai.nimbleedge/-nimble-net-config/to-string.html
+ai.nimbleedge
+ai.nimbleedge.callback
+ai.nimbleedge.datamodels
+ai.nimbleedge.options
+ai.nimbleedge.result
+

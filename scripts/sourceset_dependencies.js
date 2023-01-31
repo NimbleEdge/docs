@@ -1,0 +1,1 @@
+sourceset_dependencies='{":nimblenet-android:dokkaHtml/androidTestRelease":[],":nimblenet-android:dokkaHtml/debug":[],":nimblenet-android:dokkaHtml/main":[],":nimblenet-android:dokkaHtml/release":[],":nimblenet-android:dokkaHtml/testFixtures":[],":nimblenet-android:dokkaHtml/testFixturesDebug":[],":nimblenet-android:dokkaHtml/testFixturesRelease":[]}'
