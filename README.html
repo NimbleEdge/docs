@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* a11y-dark theme */
+/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
+/* @author: ericwbailey */
+
+/* Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #d4d0ab;
+}
+
+/* Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #ffa07a;
+}
+
+/* Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #f5ab35;
+}
+
+/* Yellow */
+.hljs-attribute {
+  color: #ffd700;
+}
+
+/* Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #abe338;
+}
+
+/* Blue */
+.hljs-title,
+.hljs-section {
+  color: #00e0e0;
+}
+
+/* Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #dcc6e0;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #2b2b2b;
+  color: #f8f8f2;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-bullet,
+  .hljs-comment,
+  .hljs-link,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-params,
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-type,
+  .hljs-quote {
+        color: highlight;
+    }
+
+    .hljs-keyword,
+    .hljs-selector-tag {
+        font-weight: bold;
+    }
+}
+
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="getting-started">Getting Started</h1>
+<p>NimbleEdge has exposed two classes for the clients to use and integrate with their application.</p>
+<h2 id="class-descriptions">Class Descriptions</h2>
+<p><a href="https://docs.nimbleedgehq.ai/nimblenet-android/ai.nimbleedge/-nimble-net-config/index.html">NimbleNetConfig</a> Class</p>
+<ul>
+<li>This class instantiates the object used as input to the main NimbleNet class. It sets up the
+config parameters for the NimbleNet class to instantiate with.</li>
+<li>The config store items such as <code>Client ID, Device ID, Host, Port, and Model ID's</code>.</li>
+<li>Detailed descriptions of the above variables to be provided in the constructor are at the
+following link</li>
+</ul>
+<p><a href="https://docs.nimbleedgehq.ai/nimblenet-android/ai.nimbleedge/-nimble-net/index.html">NimbleNet</a> class</p>
+<ul>
+<li>This is the main class for the NimbleNet interface - used for model inference and federated
+training.</li>
+<li>NimbleNet always creates a singleton instance, which is active for the entire duration of the user
+session. The instance should be created in main view of the application.</li>
+<li>The object of this class holds methods and attributes which help in obtaining inference</li>
+</ul>
+<h2 id="implementation">Implementation</h2>
+<p>In the code for your application, broadly, we will import the modules, instantiate the object with
+required class parameters, and then call the inference function as per the requirement.</p>
+<h3 id="step-0--adding-the-dependencies">Step 0 : Adding the dependencies</h3>
+<pre class="hljs"><code><div>dependencies {
+    <span class="hljs-comment">// ...... Other dependencies ......</span>
+    implementation <span class="hljs-string">'ai.nimbleedge:nimblenet_android:1.0.0'</span>
+    <span class="hljs-comment">// ...... Other dependencies .......</span>
+}
+
+<span class="hljs-comment">// add the path to the repositories</span>
+repositories {
+    maven {
+        url <span class="hljs-string">"s3://nimblebuilds.s3.ap-south-1.amazonaws.com"</span>
+        credentials(AwsCredentials) {
+            accessKey project.properties[<span class="hljs-string">"aws_access_key_id"</span>].toString()
+            secretKey project.properties[<span class="hljs-string">"aws_secret_access_key"</span>].toString()
+        }
+    }
+}
+</div></code></pre>
+<h3 id="step-1--initializing-nimblenet">Step 1 : Initializing NimbleNet</h3>
+<p>The NimbleNet must be initialized at start of the mobile application. Override the <code>onCreate</code> method
+of Application Class and add the following lines</p>
+<pre class="hljs"><code><div><span class="hljs-comment">// Import nimbleedge interface into your main application context</span>
+<span class="hljs-keyword">import</span> ai.nimbleedge.NimbleNet
+<span class="hljs-keyword">import</span> ai.nimbleedge.NimbleNetConfig
+
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DemoApplication</span> : <span class="hljs-type">Application</span></span>() {
+    <span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">onCreate</span><span class="hljs-params">()</span></span> {
+        <span class="hljs-keyword">super</span>.onCreate()
+        <span class="hljs-comment">// In this example, ClientID is "client123", modelID(s) is "model123" </span>
+        <span class="hljs-comment">// 43.205.11.213 is the IP address for connecting to NimbleEdge cloud. you will be provided with a URL for NimbleEdge cloud.</span>
+        <span class="hljs-keyword">val</span> nimbleNetConfig = NimbleNetConfig(
+            <span class="hljs-string">"client123"</span>,
+            arrayOf(<span class="hljs-string">"model123"</span>),
+            <span class="hljs-string">"http://43.205.11.213"</span>,
+            <span class="hljs-number">8080</span>,
+            <span class="hljs-string">"device_1"</span>
+        )
+        Log.d(<span class="hljs-string">"Demo Application"</span>, <span class="hljs-string">"NimbleNet interface demonstration"</span>)
+    }
+}
+</div></code></pre>
+<p>Initialize the NimbleNet object</p>
+<pre class="hljs"><code><div><span class="hljs-comment">// Import nimbleedge interface into your main application context</span>
+<span class="hljs-keyword">import</span> ai.nimbleedge.NimbleNet
+<span class="hljs-keyword">import</span> ai.nimbleedge.NimbleNetConfig
+
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DemoApplication</span> : <span class="hljs-type">Application</span></span>() {
+    <span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">onCreate</span><span class="hljs-params">()</span></span> {
+        <span class="hljs-keyword">super</span>.onCreate()
+        <span class="hljs-comment">// In this example, ClientID is "client123", modelID(s) is "model123" </span>
+        <span class="hljs-comment">// 43.205.11.213 is the IP address for connecting to NimbleEdge cloud. you will be provided with a URL for NimbleEdge cloud.</span>
+        <span class="hljs-keyword">val</span> nimbleNetConfig = NimbleNetConfig(
+            <span class="hljs-string">"client123"</span>,
+            arrayOf(<span class="hljs-string">"model123"</span>),
+            <span class="hljs-string">"http://43.205.11.213"</span>,
+            <span class="hljs-number">8080</span>,
+            <span class="hljs-string">"device_1"</span>
+        )
+        NimbleNet.initialize()
+        Log.d(<span class="hljs-string">"Demo Application"</span>, <span class="hljs-string">"NimbleNet interface demonstration"</span>)
+    }
+}
+</div></code></pre>
+<h3 id="step-2-calling-the-prediction-request">Step 2 Calling the Prediction Request</h3>
+<p>You can call the predict method of the SDK from within the Fragment or ViewModel. You also have
+asynchronous methods for parallel execution. Please refer to API docs for detailed information.</p>
+<pre class="hljs"><code><div><span class="hljs-comment">// Here, we have hardcoded the input to the predict call</span>
+<span class="hljs-comment">// You can feed the input as needed, example from the DB</span>
+<span class="hljs-comment">// "input" is the name of the input as specified in the planFeatures file</span>
+<span class="hljs-keyword">val</span> result = NimbleNet.predict(
+    <span class="hljs-string">"model123"</span>,
+    <span class="hljs-string">"input"</span> to floatArrayOf(<span class="hljs-number">1.0f</span>, <span class="hljs-number">2.0f</span>, <span class="hljs-number">3.0f</span>, <span class="hljs-number">4.0f</span>)
+)
+
+<span class="hljs-comment">// You can access "data", "shape" and "type" elements of any output </span>
+<span class="hljs-comment">// using the name provided in the planFeatures</span>
+<span class="hljs-comment">// Example: result["probabilities"]?.data will return the "probabilities" data. Now, Use the output received from the model as needed</span>
+</div></code></pre>
+<p>A demo fragment that calls predict and shows the responses on TextView looks like this</p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">FirstFragment</span> : <span class="hljs-type">Fragment</span></span>() {
+
+
+    <span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">onViewCreated</span><span class="hljs-params">(view: <span class="hljs-type">View</span>, savedInstanceState: <span class="hljs-type">Bundle</span>?)</span></span> {
+        <span class="hljs-keyword">super</span>.onViewCreated(view, savedInstanceState)
+
+        binding.predict.setOnClickListener {
+<span class="hljs-comment">//           predictUsingCallback()</span>
+            predictUsingFlow()
+        }
+    }
+
+    <span class="hljs-keyword">private</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">predictUsingFlow</span><span class="hljs-params">()</span></span> {
+        <span class="hljs-keyword">val</span> input = List(<span class="hljs-number">4</span>) { Random.nextFloat() * <span class="hljs-number">4</span> }.toFloatArray()
+        lifecycleScope.launch {
+            NimbleNet.predictAsync(
+                <span class="hljs-string">"plan1"</span>,
+                mapOf(<span class="hljs-string">"input"</span> to input)
+            ).onSuccess { <span class="hljs-keyword">data</span> -&gt;
+                Log.d(NE_LOG_TAG, <span class="hljs-string">"predictAsync:onSuccess"</span> + Thread.currentThread().name)
+                binding.parray.text =
+                    <span class="hljs-keyword">data</span>[<span class="hljs-string">"probabilities"</span>]?.<span class="hljs-keyword">data</span>?.joinToString(<span class="hljs-string">","</span>)
+                binding.larray.text = <span class="hljs-keyword">data</span>[<span class="hljs-string">"label"</span>]?.<span class="hljs-keyword">data</span>.contentToString()
+            }.onFailure {
+                Log.d(NE_LOG_TAG, <span class="hljs-string">"predictAsync:onFallback"</span> + Thread.currentThread().name)
+            }.onFallback {
+                Log.d(NE_LOG_TAG, <span class="hljs-string">"predictAsync:onFailure"</span> + Thread.currentThread().name)
+            }
+        }
+    }
+
+    <span class="hljs-keyword">private</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">predictUsingCallback</span><span class="hljs-params">()</span></span> {
+        <span class="hljs-keyword">val</span> input = List(<span class="hljs-number">4</span>) { Random.nextFloat() * <span class="hljs-number">4</span> }.toFloatArray()
+        NimbleNet.predictAsync(
+            <span class="hljs-string">"plan1"</span>,
+            mapOf(<span class="hljs-string">"input"</span> to input),
+            <span class="hljs-keyword">object</span> : PredictionLoadCallback {
+                <span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">onSuccess</span><span class="hljs-params">(output: <span class="hljs-type">ModelOutput</span>)</span></span> {
+                    Log.d(NE_LOG_TAG, <span class="hljs-string">"predictAsync:onSuccess=&gt;"</span> + Thread.currentThread().name)
+                    binding.parray.text =
+                        output[<span class="hljs-string">"probabilities"</span>]?.<span class="hljs-keyword">data</span>?.joinToString(<span class="hljs-string">","</span>) {
+                            String.format(
+                                <span class="hljs-string">"%.2f"</span>,
+                                it
+                            )
+                        }
+                    binding.larray.text = output[<span class="hljs-string">"label"</span>]?.<span class="hljs-keyword">data</span>.contentToString()
+                }
+
+                <span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">onFailure</span><span class="hljs-params">(failure: <span class="hljs-type">Failure</span>)</span></span> {
+                    Log.d(NE_LOG_TAG, <span class="hljs-string">"predictAsync:onFailure"</span> + Thread.currentThread().name)
+                }
+            }
+        )
+    }
+}
+</div></code></pre>
+
+</body>
+</html>
